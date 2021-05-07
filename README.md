@@ -1,8 +1,8 @@
 # Project2GA
-# 2ProjectGA
+
 General Assembly Project 2 - React
 
-# GAProject2
+
 
 # Project Overview
 
