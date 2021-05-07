@@ -77,9 +77,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Create React App | H | 20 min| 20 min| 20 min |
 | Choose API's and test for data | H | 10 min| 10 min | 10 min |
-| Set up React Routing | 1 hr |   |    
-| Create hamburger nav | 1 hr |  |  |
-| Create search option | 2 hr |  |  |
+| Set up React Routing | 1 hr | 3 hr  |    
+| Create hamburger nav | 1 hr |  5 hrs|  |
+| Create search option | 2 hr | 16 hrs |  |
 | Create "All News" & "Top Stories" in categories | 5 hr |  |  |
 | Create "Suggested Topics" and those pages | 20 hr |  |   |
 
@@ -88,13 +88,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
  D3 for webpages.
- Canva for creating certain graphics & logo.
- Reactstrap for icons.
+
+Tailwind CSS
+Reactstrap for icons.
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
+ <div>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="e.g. fashion" className="py-1 px-2 rounded-l-lg"  onChange={(e) => setText(e.target.value)}/>
+
+                <button type="submit" className="bg-blue-400 py-1 px-2 rounded-r-lg text-white ">Search</button>
+            </form>
+        </div>
+    )
+}
+
+Took me a while to get the understanding of the onClick, onChange features.
 ```
 function reverse(string) {
 	// here is the code to reverse a string of text
